@@ -1,0 +1,44 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "DM Sans";
+  width: 94%;
+  margin: auto;
+}
+
+body {
+  border-left: 1px solid #7871F1;
+  border-right: 1px solid #7871F1;
+}
+
+a {
+  padding: 5px;
+  color: #7871F1;
+  margin-left: 50px;
+  font-size: 32px;
+  text-decoration: underline;
+  
+}
+
+footer p{
+  float: right;
+  font-weight: 100;
+  padding-right: 20px;
+  font-size: 10px;
+
+}
+
+footer {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 760px) {
+  a {
+    font-size: 25px;
+  }
+
+}
